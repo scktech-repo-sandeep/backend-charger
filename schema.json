@@ -1,0 +1,97 @@
+[
+    {
+      "tableName": "CustomerTable",
+      "id": "dbGenrated",
+      "userId": "Cust0001",
+      "firstName": "required",
+      "lastName": "requierd",
+      "mobileNumber": "required (validation)",
+      "emailId": "required",
+      "password": "requierd",
+      "registerType": "customer",
+      "mobileVerifed": "N",
+      "emailVerified": "N",
+      "termsAndConditions": "Agree",
+      "isActive": "s",
+      "isCustomer":"Y",
+      "createdAt":""
+
+    },
+    {
+      "tableName": "ServiceTable",
+      "id": "dbGenrated",
+      "serviceId": "PATR0001",
+      "firstName": "required",
+      "lastName": "requierd",
+      "mobileNumber": "required (validation)",
+      "emailId": "required",
+      "password": "requierd",
+      "registerType": "customer",
+      "mobileVerifed": "N",
+      "emailVerified": "N",
+      "termsAndConditions": "Agree",
+      "isActive": "s"
+    },
+    {
+      "tableName": "ChargerTable",
+      "id": "dbGenrated",
+      "chargerName": "event.charger.chargerName",
+      "chargerId": "CH001",
+      "powerRating": "event.charger.powerRating",
+      "availability": " event.charger.availability",
+      "plugType": "event.charger.plugType",
+      "cost": "event.charger.cost",
+      "location": {
+        "long": "s",
+        "lat": "s", 
+        "pincode": ""
+      },
+      "amenities": ["event.charger.amenities"],
+      "isActive": "s"
+    },
+    {
+      "tableName": "OTPTable",
+      "id": "dbGenrated",
+      "userId": "patner/user",
+      "sendTO": "mobile/email",
+      "otp": "",
+      "genratedtimeStamp": "",
+      "expiry": "",
+      "isActive": "s"
+    },
+    {
+      "tableName": "BookingTable",
+      "id": "dbGenrated",
+      "userId": "Cust0001",
+      "bookingId": "BOOK001",
+      "serviceName": "s",
+      "serviceId": "PATR0001",
+      "chargerId": "CH001",
+      "chargerName": "event.charger.chargerName",
+      "timeSlot": "ISO",
+      "time": "optional",                                                                                                                                                                                                                 
+      "isActive": "1"
+    },
+    {
+      "tableName": "WalletTable",
+      "id": "dbGenrated",
+      "walletId": "WLT001",
+      "userId": "Cust0001",
+      "coinsPurchased": "N",
+      "isActive": "1"
+    },
+    {
+      "tableName": "ConsumptionTable",
+      "id": "dbGenrated",
+      "consumtionId": "CONS001",
+      "userId": "Cust0001",
+      "serviceId": "PATR0001",
+      "coinsUsed": "50",
+      "powerConsumtion": "kw",
+      "isActive": 1
+    },
+    {
+      "paymenttables": "need to develop"
+    }
+  ]
+  
